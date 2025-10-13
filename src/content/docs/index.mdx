@@ -1,0 +1,26 @@
+---
+title: Wellcome!
+description: 「じぶん」のための、インターネットのかたすみ katasu.me のドキュメントサイト
+template: splash
+hero:
+  tagline: katasu.me のドキュメントサイトです
+  actions:
+    - text: いろいろみる
+      link: /info
+      icon: right-arrow
+    - text: katasu.me サービスサイト
+      link: https://katasu.me
+      icon: external
+      variant: minimal
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+    <LinkCard title="利用規約" href="/others/terms" />
+    <LinkCard title="プライバシーポリシー" href="/others/privacy" />
+</CardGrid>
+
+<CardGrid>
+    <LinkCard title="ライセンスについて" href="/others/license" />
+</CardGrid>
