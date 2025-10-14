@@ -9,6 +9,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "katasu.me docs",
+      favicon: "/favicon.ico",
       customCss: [
         "./src/styles/custom.css",
       ],
@@ -36,3 +37,4 @@ export default defineConfig({
 
   adapter: cloudflare(),
 });
+
