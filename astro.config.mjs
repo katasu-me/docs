@@ -21,15 +21,15 @@ export default defineConfig({
       sidebar: [
         {
           label: "katasu.meについて",
-          autogenerate: { directory: "info" },
+          items: [{ autogenerate: { directory: "info" } }],
         },
         {
           label: "更新履歴",
-          autogenerate: { directory: "news" },
+          items: [{ autogenerate: { directory: "news" } }],
         },
         {
           label: "その他",
-          autogenerate: { directory: "others" },
+          items: [{ autogenerate: { directory: "others" } }],
         },
       ],
     }),
